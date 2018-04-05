@@ -39,9 +39,6 @@ def all_holidays_with_bbq(holiday_hash)
       supplies.each do |x| if x == "BBQ"
         return holiday
       end
-
-      end
-      return holiday
     end
   end
 end
